@@ -15,16 +15,16 @@ export const CardContainer = styled.div`
     color: #000;
     img {
       max-width: 100%;
-      height: 200px;
+      max-height: 200px;
       border-radius: 1rem;
     }
     h4 {
-      height: 75px;
+      max-height: 65px;
       margin: 0.5rem 0;
       overflow-y: auto;
     }
     p {
-      height: 150px;
+      max-height: 130px;
       overflow-y: auto;
     }
   }

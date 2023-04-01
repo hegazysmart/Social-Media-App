@@ -41,6 +41,7 @@ export const CommentsContainer = styled.div`
 
   .comment {
     margin: 0.5rem 0;
+    width: 100%;
     padding: 0.5rem 1rem;
     background-color: #deffde;
     box-shadow: 10px 10px lightblue;
