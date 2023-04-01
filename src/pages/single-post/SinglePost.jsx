@@ -41,9 +41,9 @@ const SinglePost = () => {
           comments.map((comment, index) => {
             return (
               <div className="comment">
-                <p className="name">{comment.name}</p>
-                <p className="email">{comment.email}</p>
-                <p className="body">{comment.body}</p>
+                <p className="name"><strong>name: </strong>{comment.name}</p>
+                <p className="email"><strong>email: </strong>{comment.email}</p>
+                <p className="body"><strong>comment: </strong>{comment.body}</p>
               </div>
             );
           })}

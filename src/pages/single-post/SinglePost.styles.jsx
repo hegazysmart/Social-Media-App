@@ -10,11 +10,11 @@ export const Head = styled.div`
   img.logo-sm-app {
     max-height: 100%;
   }
-  .navigate{
-    color:#fff;
+  .navigate {
+    color: #fff;
     text-decoration: none;
-    :hover{
-        color: #a9dbff;
+    :hover {
+      color: #a9dbff;
     }
   }
 `;
@@ -28,9 +28,21 @@ export const Slogan = styled.div`
 `;
 
 export const CommentsContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vh 10vw;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px lightblue;
+  h2 {
+    text-transform: capitalize;
+    margin: 1rem;
+  }
 
-
-`
+  .comment {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #deffde;
+    box-shadow: 10px 10px lightblue;
+  }
+`;

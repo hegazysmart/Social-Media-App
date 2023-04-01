@@ -19,11 +19,12 @@ export const CardContainer = styled.div`
       border-radius: 1rem;
     }
     h4 {
-      height: 65px;
+      height: 75px;
       margin: 0.5rem 0;
+      overflow-y: auto;
     }
     p {
-      height: 130px;
+      height: 150px;
       overflow-y: auto;
     }
   }
